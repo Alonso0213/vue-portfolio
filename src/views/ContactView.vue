@@ -1,13 +1,19 @@
 <template>
     <div>
-
+<fubar/>
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import Fubar from '@/components/fubar.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    Fubar
+   
+  }
+}
 </script>
 
 <style scoped>
