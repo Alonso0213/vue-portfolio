@@ -1,8 +1,11 @@
 <template>
-  
+  <div>
     <navBar/>
-  
+    <fubar/>
   <router-view/>
+  
+   
+  </div>
 </template>
 
 <style>
@@ -25,14 +28,17 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #f01515;
 }
 </style>
 <script>
 import navBar from './components/navBar.vue'
+import Footer from './components/fubar.vue'
 export default{
   components:{
-    navBar
+    navBar,
+    Footer
+   
   }
 }
 
